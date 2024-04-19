@@ -6,7 +6,7 @@
  *---------------------------------------------------------------------------------------*/
 
 function sayHello($name) {
-	echo "Hello $name!";
+	echo "Hello I am $name!";
 }
 
 ?>
@@ -28,5 +28,12 @@ function sayHello($name) {
 		<a>Password:</a><input type=password name="passWord" size =16>
 		<input type=submit name=submit value="Login">
 		</form>
+		<?php echo("Hello World!"); ?>
+<? echo("Hello World!"); ?>
+<script language="php">
+
+	echo("Hello World!");
+
+	</script>
 	</body>
 </html>
